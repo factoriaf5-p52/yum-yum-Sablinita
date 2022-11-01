@@ -1,14 +1,429 @@
-@font-face {
-    font-family: 'Intro';
-    src: url('intro-regular-webfont.woff2') format('woff2'),
-         url('intro-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+.logo {
+    color: grey;
 }
-@font-face {
-    font-family: 'Intro';
-    src: url('intro-black-webfont.woff2') format('woff2'),
-         url('intro-black-webfont.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
+
+body{
+    font-family:'Lato';
+}
+
+.hamburger-icon {
+width: 2rem
+}
+
+.cart-icon{
+    width: 2rem;
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    height: 10vh;
+    background-color: white;
+}
+
+.order-food{
+    height: 90vh;
+}
+
+.image-space{
+    height: 40vh;
+    background-color: grey;
+}
+
+.order-around-you{
+    height: 50vh;
+    background-color: limegreen;
+    color: white;
+    text-align: center;
+    font-size: large;
+    padding-top: 20px;
+}
+
+.address-container img{
+    width: 1.5rem;
+}
+
+.you-like-container img{
+    width: 1.5rem;
+}
+
+.find{
+    padding:10px;
+    background-color:tomato;
+    color: white;
+    margin: unset;
+    display: flex;
+    flex-direction: column;
+}
+
+.address-container{
+    display: flex;
+    background-color: white;
+    width: 40vw;
+}
+
+#address-input{
+    border:none;
+    padding: 20px;
+}
+
+.you-like-container {
+    display: flex;
+    background-color: white;
+    width: 40vw;
+}
+
+#food-input{
+    border: none;
+    padding: 20px;
+}
+
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.food-button-container{
+    display: flex;
+    justify-content:center;
+    padding-top: 30px;
+
+}
+
+.how-it-works{
+    display: flex;
+    height: 100vh;
+    background-color: white;
+    flex-direction: column;
+}
+
+.how-it-works-title{
+    color:coral;
+    text-align: center;
+    height: 15vh;
+}
+
+.search-container img{
+    width: 5rem;
+    display: flex;
+}
+
+.search-title{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+
+.search-container{
+    display: flex;
+    height: 30vh;
+}
+
+.order-container img{
+    width: 5rem;
+}
+
+.order-container{
+    height: 30vh;
+    display: flex;
+}
+
+.order-clipboard{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+
+.eat-container img{
+    width: 5rem;
+}
+
+.eat-container{
+    height: 30vh;
+    display: flex;
+}
+
+.eat-title{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+
+.dishes-title h2{
+    color:coral;
+    text-align: center;
+    height: 10vh;
+    padding-top: 20px;
+}
+
+.image-dish{
+    background-color: grey;
+    height: 30vh;
+}
+
+.dish-description{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.dish-description p{
+    margin: 0.5;
+}
+
+.dishes{
+    height: 180vh;
+    display: flex;
+    background-color: beige;
+    flex-direction: column;
+}
+
+.first-dish-container{
+    height: 50vh;
+}
+
+.second-dish-container{
+    height: 50vh;
+}
+
+.third-dish-container{
+    height: 50vh;
+}
+
+.buy-now{
+    background-color:green;
+    color: white;
+    padding: 10px;
+    margin: none;
+    border: none;
+}
+
+.price-button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.star-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.star-container p{
+    color:lightslategrey;
+}
+
+.red-section{
+    background-color:tomato;
+    height: 100vh;
+    color: white;
+}
+
+.logo-phone{
+    width: 8vh
+}
+
+.chicken{
+    width: 8vh;
+}
+
+.percentage{
+    width: 8vh;
+}
+
+.mobile{
+    width: 8vh;
+}
+
+.top-logos{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+    padding-top: 90px;
+}
+
+.bottom-logos{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+    padding-bottom: 40px;
+}
+
+.features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cuisine{
+    height: 170vh;
+    background-color: beige;
+}
+
+.cuisine-title{
+    color: coral;
+    height: 15vh;
+    text-align: center;
+    padding-top: 45px;
+}
+
+.a-la-carte-space{
+    height: 25vh;
+    background-color: grey;
+}
+
+.carte{
+    height: 10vh;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.fast-space{
+    height: 25vh;
+    background-color: grey;
+}
+
+.fast-food{
+    height: 10vh;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.italian-space{
+    height: 25vh;
+    background-color: grey;
+}
+
+.italian-food{
+    height: 10vh;
+    background-color: white;
+    padding-top:10px;;
+}
+
+.banner-space{
+    background-color: black;
+    height: 30vh;
+}
+
+.banner-text p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.fifty-per-cent-off{
+    height: 120vh;
+    background-color: beige;
+}
+
+.featured-title{
+    height: 15vh;
+    color: coral;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;;
+}
+
+.fifty-off{
+    height: 50vh;
+}
+
+.fifty-off-space{
+    height: 25vh;
+    background-color: grey;
+    width: 
+}
+
+.addision-space{
+height: 25vh;
+background-color: grey;
+}
+
+.acquerello{
+    height: 8vh;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.addision{
+    height: 50vh;
+    padding-top: 10px;
+}
+
+.addision-content{
+    height: 8vh;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.green-boxes{
+    height: 4vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.viewmenu {
+    background-color: green;
+    color: white;
+}
+
+.buynow{
+    background-color: green;
+    color: white;
+}
+
+.star-container-featured{
+    height: 5vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    color:lightslategrey;
+
+}
+
+.footer-section{
+    height: 100vh;
+}
+
+.footer-section p{
+    color: grey;
+}
+
+.get-to-know-us{
+    height: 25vh;
+}
+
+.business-solutions{
+    height: 25vh;
+}
+
+.social{
+    height: 25vh;
+}
+
+.contact-us{
+    height: 25vh;
+}
+
+.final-box{
+    height: 15vh;
+    background-color:rgb(211, 209, 206) ;
+    display: flex;
+    flex-direction: column;
+}
+
+.final-line{
+        display: flex;
+        justify-content: space-evenly;
 }
